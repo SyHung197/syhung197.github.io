@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.timeline-stt {
+  background-color: #b197fc;
+  font-size: 20px;
+  padding: 12px 16px;
+  font-weight: 500;
+  margin: 0 32px 16px 12px;
+  max-width: 56px;
+}
+.container {
+  background-color: aliceblue;
+  height: 100%;
+}
+.project-text {
+  width: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  background-color: blue;
+  gap: 16px;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 24px;
+}
+.scopes {
+  grid-column: 1 / span 1;
+}
+.team {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.timeline {
+  grid-column: 3/4;
+  grid-row: 1 / span 2;
+}
+.section-title {
+  border-bottom: 1px solid #adb5bd;
+}
+.project-text {
+  border-bottom: 1px dashed #12b886;
+}
+
+/* Mobile & Tablet */
+@media (max-width: 992px) {
+  .grid {
+    display: block;
+    padding: 24px;
+  }
+  .goals,
+  .scopes,
+  .team,
+  .primary,
+  .timeline {
+    margin-bottom: 16px;
+  }
+  .goals1,
+  .scopes-content,
+  .team-item,
+  .primary-item,
+  .timeline-item {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .goals1 i,
+  .primary-item i {
+    align-self: center;
+  }
+  .timeline-stt {
+    margin-bottom: 12px;
+  }
+}
+/* tablet */

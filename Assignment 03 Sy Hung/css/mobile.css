@@ -1,0 +1,58 @@
+@media (max-width: 575px) {
+  #nav-bar {
+    display: block;
+  }
+  #personal-info {
+    padding: 0 0 64px 64px;
+  }
+  .nav-item {
+    display: block;
+    margin-left: 30px;
+    border: none;
+    text-align: start;
+    padding: 12px;
+    height: auto;
+  }
+  .item3 {
+    display: none;
+  }
+  .nav-item:first-child {
+    border-left: none;
+  }
+  .part2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #target {
+    margin-bottom: 48px;
+  }
+  #job-info .grid {
+    grid-template-columns: 1fr;
+  }
+  .cer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .img-cer2 {
+    border-left: none;
+    padding-left: 0;
+  }
+  .cer {
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    padding: 0 24px;
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .cer3 {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-item {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}

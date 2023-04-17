@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+}
+#main {
+  background: #f1f3f5;
+  margin: 30px 12px;
+  padding: 16px;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 52px;
+  margin: 24px 0;
+}
+.container {
+  margin: 0px 18px;
+  background-color: #fff;
+}
+.head {
+  margin: 42px 0;
+  text-align: center;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li {
+  margin: 16px 0;
+}
+::marker {
+  color: black;
+  font-size: 18px;
+}
+#tribute-info span {
+  font-weight: bold;
+}
+blockquote {
+  font-style: italic;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+blockquote p {
+  margin-top: 16px;
+}
